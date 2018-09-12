@@ -1,0 +1,194 @@
+﻿body {
+    padding: 2px;
+    font-family: "Courier New";
+    font-size: large;
+    font-weight: lighter;
+}
+
+.legend {
+    position: relative;
+    float: left;
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.diagram {
+    min-height: 300px;
+    max-height: 750px;
+    min-width: 300px;
+    max-width: 750px;
+}
+
+.square {
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* = width for a 1:1 aspect ratio */
+    overflow: hidden;
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 50%;
+    height: 50%;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid black;
+    width: 50%;
+    height: 50%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-right: 1px solid black;
+    width: 50%;
+    height: 50%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 0px;
+    width: 50%;
+    height: 50%;
+}
+
+.diagram .center {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 1px solid black;
+    width: 60%;
+    height: 60%;
+}
+
+.small .center {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: 0px none;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    border: 0px none !important;
+}
+
+.circle {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    position: absolute
+}
+
+.top-left .circle {
+    top: 12%;
+    left: 12%;
+}
+
+.top-right .circle {
+    top: 12%;
+    right: 12%;
+}
+
+.bottom-left .circle {
+    bottom: 12%;
+    left: 12%;
+}
+
+.bottom-right .circle {
+    bottom: 12%;
+    right: 12%;
+}
+
+.top-left.inner .circle {
+    top: 25%;
+    left: 25%;
+}
+
+.top-right.inner .circle {
+    top: 25%;
+    right: 25%;
+}
+
+.bottom-left.inner .circle {
+    bottom: 25%;
+    left: 25%;
+}
+
+.bottom-right.inner .circle {
+    bottom: 25%;
+    right: 25%;
+}
+
+.label {
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.m {
+    bottom: -25px;
+    right: -20px;
+    z-index: 1000;
+}
+
+.x {
+    bottom: -25px;
+    left: 10%;
+}
+
+.x1 {
+    bottom: -25px;
+    right: 10%;
+}
+
+.y {
+    top: 10%;
+    right: -20px;
+}
+
+.y1 {
+    bottom: 10%;
+    right: -30px;
+}
+
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}

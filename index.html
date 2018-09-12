@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Lewis Carroll's Game of Logic Diagram</title>
+    <link rel="stylesheet" type="text/css" href="content/style.css" />
+    <script type="text/javascript" src="content/script.js"></script>
+</head>
+<body>
+<div class="legend">
+    <p>
+        Lewis Carroll's Game of Logic Diagram: a useful tool to solve sorites problems
+    </p>
+    <ul>
+        <li>Click 'm' to toggle between bilateral and trilateral diagrams</li>
+        <li>Click squares to toggle red and black labels</li>
+    </ul>
+    
+</div>
+    <div class="diagram">
+        <div class="square">
+            <div class="top-left">
+                <div class="circle white"></div>
+            </div>
+            <div class="top-right">
+                <div class="circle white"></div>
+            </div>
+            <div class="bottom-left">
+                <div class="circle white"></div>
+            </div>
+            <div class="bottom-right">
+                <div class="circle white"></div>
+            </div>
+            <div class="center">
+                <div class="top-left inner">
+                    <div class="circle white"></div>
+                    <div class="x label">
+                        <div class="table">
+                            <div class="table-cell">x</div>
+                        </div>
+                    </div>
+                    <div class="y label">
+                        <div class="table">
+                            <div class="table-cell">y</div>
+                        </div>
+                    </div>
+                    <div class="m label">
+                        <div class="table">
+                            <div class="table-cell">m</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-right inner">
+                    <div class="circle white"></div>
+                    <div class="x1 label">
+                        <div class="table">
+                            <div class="table-cell">x'</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-left inner">
+                    <div class="circle white"></div>
+                    <div class="y1 label">
+                        <div class="table">
+                            <div class="table-cell">y'</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-right inner">
+                    <div class="circle white"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded",
+            function () {
+                attachEvents();
+            });
+    </script>
+</body>
+</html>

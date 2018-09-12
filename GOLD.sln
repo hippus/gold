@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0D04E8B-BFA2-40E8-8D71-D75B60BE5C84}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{17DD0E9E-9E6C-4C6E-97E2-3B0D925ACD36}"
+	ProjectSection(SolutionItems) = preProject
+		content\script.js = content\script.js
+		content\style.css = content\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17DD0E9E-9E6C-4C6E-97E2-3B0D925ACD36} = {B0D04E8B-BFA2-40E8-8D71-D75B60BE5C84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C637C2-8022-4AF1-98B0-6F8439A3FE7F}
+	EndGlobalSection
+EndGlobal
