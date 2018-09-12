@@ -149,23 +149,23 @@
 }
 
 .x {
-    bottom: -25px;
-    left: 10%;
-}
-
-.x1 {
-    bottom: -25px;
-    right: 10%;
-}
-
-.y {
     top: 10%;
     right: -20px;
 }
 
-.y1 {
+.x1 {
     bottom: 10%;
     right: -30px;
+}
+
+.y {
+    bottom: -25px;
+    left: 10%;
+}
+
+.y1 {
+    bottom: -25px;
+    right: 10%;
 }
 
 .table {
