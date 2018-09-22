@@ -35,7 +35,7 @@ function createToggleHandler(square) {
 function attachEvents() {
     var m = document.getElementsByClassName('m')[0];
     m.addEventListener('click', toggleDiagram, false);
-    var squares = ['top-left', 'top-right', 'bottom-left', 'bottom-right'];
+    var squares = ['top-left', 'top-right', 'bottom-left', 'bottom-right', 'wall'];
     for (var i = 0; i < squares.length; i++) {
         var elements = document.getElementsByClassName(squares[i]);
         for (var j = 0; j < elements.length; j++) {
